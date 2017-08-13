@@ -1,0 +1,187 @@
+/**Cascading Style Sheets
+CSS handles the look and feel part of a web page.
+A CSS file consists of one or more rules.
+Eah rules begins with a selector.
+
+ # for referencing id html.
+ * for selecting all elements
+ . for  referencing class in html.
+
+
+selector{
+property: value;
+...
+property: value;
+}
+
+
+**/
+
+
+/*========================BODY SECTION==========================*/
+
+h1 {
+    font-size: 120%;
+    color: #ce282e;
+}
+
+h2 {
+    font-size: 120%;
+    color: darkblue;
+}
+
+h3 {
+    font-size: 250%;
+    text-align: center;
+    font-family: sans-serif, Arial;
+    color: #e5e4d7;
+    margin: 0px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+h4 {
+    font-size: 100%;
+    color: #000;
+}
+
+body {
+    background-color: #9c9f84;
+    margin: 0px;
+    font-family: Verdana, Georgia, serif;
+    font-size: 14px;
+}
+
+#header {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+#frm {
+    float: right;
+    margin-top: 15px;
+    display: block;
+    clear: both;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 5px;
+    background-color: dimgrey;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#navbar ul li {
+    display: inline;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: antiquewhite;
+    background-color: dimgrey;
+}
+
+#navbar ul li a:hover {
+    color: dimgrey;
+    background-color: antiquewhite;
+}
+
+.section {
+    background-color: #e5e4d7;
+    margin-bottom: 10px;
+    margin-right: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+}
+
+.sider {
+    background-color: #e5e4d7;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 105%;
+    float: right;
+    width: 260px;
+    clear: right;
+}
+
+.imag {
+    opacity: 1.0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-radius: 5px;
+    font-size: 105%;
+    float: right;
+    width: 300px;
+    clear: right;
+    transition-property: opacity 0.5s ease-in-out;
+}
+
+.imag:hover {
+    opacity: 0.4;
+}
+
+#footer {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 50px;
+    clear: both;
+    border-radius: 5px;
+    color: #e5e4d7;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+}
+
+#footer ul {
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#footer ul li {
+    display: inline;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    padding: .2em 1em;
+    color: #efe5d0;
+    background-color: #5c755e;
+}
+
+#footer ul li a:hover {
+    color: #000;
+    background-color: antiquewhite;
+}
+
+@media(max-width:600px) {
+    body {
+        background-color: aqua;
+        margin: 0px;
+        font-family: Verdana, Georgia, serif;
+    }
+}
+
+
+/*============================================================*/
